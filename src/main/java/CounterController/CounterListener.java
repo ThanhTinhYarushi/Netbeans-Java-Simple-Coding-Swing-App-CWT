@@ -21,7 +21,7 @@ public class CounterListener implements ActionListener{
     
     @Override
     public void actionPerformed(ActionEvent e) {
-        System.out.println("Ban da bat dai");
+        System.out.println("Ban da nhan nut");
         
         String str = e.getActionCommand();
         System.out.println("Ban da nhan nut: " + str);
